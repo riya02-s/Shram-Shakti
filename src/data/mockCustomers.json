@@ -1,0 +1,44 @@
+[
+  {
+    "customer_id": "C000001",
+    "full_name": "Oscar Hans",
+    "phone": "0307053457",
+    "area": "Patiala Urban",
+    "customer_type": "household"
+  },
+  {
+    "customer_id": "C000002",
+    "full_name": "Wyatt Pradhan",
+    "phone": "9727985524",
+    "area": "Ropar Town",
+    "customer_type": "household"
+  },
+  {
+    "customer_id": "C000003",
+    "full_name": "Chandran Gaba",
+    "phone": "3334680072",
+    "area": "Ropar Town",
+    "customer_type": "society"
+  },
+  {
+    "customer_id": "C000004",
+    "full_name": "Zayyan Mody",
+    "phone": "6657437489",
+    "area": "Ludhiana West",
+    "customer_type": "household"
+  },
+  {
+    "customer_id": "C000005",
+    "full_name": "Yasti Prasad",
+    "phone": "4171545444",
+    "area": "Ludhiana East",
+    "customer_type": "society"
+  },
+  {
+    "customer_id": "C000012",
+    "full_name": "Yuvraj Kara",
+    "phone": "4216894210",
+    "area": "Mansa Rural",
+    "customer_type": "institution"
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "worker_id": "W00001",
+    "full_name": "Aryan Maharaj",
+    "area": "Ludhiana West",
+    "service_type": "plumber",
+    "skill": "leak fix",
+    "skill_level": "basic",
+    "hourly_rate": 239,
+    "rating_avg": 4.6,
+    "active": 1
+  },
+  {
+    "worker_id": "W00002",
+    "full_name": "Rushil Saini",
+    "area": "Ludhiana West",
+    "service_type": "electrician",
+    "skill": "electrical repair",
+    "skill_level": "intermediate",
+    "hourly_rate": 579,
+    "rating_avg": 4.3,
+    "active": 1
+  },
+  {
+    "worker_id": "W00003",
+    "full_name": "Gunbir Parmer",
+    "area": "Ludhiana West",
+    "service_type": "cleaner",
+    "skill": "office cleaning",
+    "skill_level": "basic",
+    "hourly_rate": 254,
+    "rating_avg": 4.7,
+    "active": 1
+  },
+  {
+    "worker_id": "W00004",
+    "full_name": "Ekaraj Bath",
+    "area": "Patiala Urban",
+    "service_type": "plumber",
+    "skill": "drain cleaning",
+    "skill_level": "intermediate",
+    "hourly_rate": 230,
+    "rating_avg": 5,
+    "active": 1
+  },
+  {
+    "worker_id": "W00008",
+    "full_name": "Zayan Apte",
+    "area": "Moga Central",
+    "service_type": "electrician",
+    "skill": "fan installation",
+    "skill_level": "basic",
+    "hourly_rate": 472,
+    "rating_avg": 4.7,
+    "active": 1
+  },
+  {
+    "worker_id": "W00016",
+    "full_name": "Vidhi Dubey",
+    "area": "Moga Central",
+    "service_type": "technician",
+    "skill": "TV repair",
+    "skill_level": "intermediate",
+    "hourly_rate": 403,
+    "rating_avg": 4.2,
+    "active": 1
+  },
+  {
+    "worker_id": "W00025",
+    "full_name": "Garima Bala",
+    "area": "Amritsar North",
+    "service_type": "painter",
+    "skill": "wall painting",
+    "skill_level": "intermediate",
+    "hourly_rate": 685,
+    "rating_avg": 4.2,
+    "active": 1
+  },
+  {
+    "worker_id": "W00053",
+    "full_name": "Gaurang Murty",
+    "area": "Patiala Urban",
+    "service_type": "driver",
+    "skill": "school run",
+    "skill_level": "advanced",
+    "hourly_rate": 581,
+    "rating_avg": 4.1,
+    "active": 1
+  },
+  {
+    "worker_id": "W00101",
+    "full_name": "Hamsini Gill",
+    "area": "Ludhiana East",
+    "service_type": "caregiver",
+    "skill": "elder care",
+    "skill_level": "intermediate",
+    "hourly_rate": 376,
+    "rating_avg": 3.8,
+    "active": 1
+  }
+]
