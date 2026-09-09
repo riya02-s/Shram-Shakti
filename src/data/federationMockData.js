@@ -1,13 +1,15 @@
 // src/data/federationMockData.js
 // Self-contained mock dataset for the Federation Admin & Demand Forecast module
+// Aligned with official team master datasets (mockCooperatives.json, mockWorkers.json, mockCustomers.json)
 
 export const federationMetrics = {
+  federationName: "Punjab Labour Cooperative Federation",
   totalWorkers: 148,
   totalBookings: 1842,
   emergencyRequests: 37,
   averageRating: 4.82,
-  activeSocieties: 12,
-  pendingDisputes: 5,
+  activeSocieties: 10,
+  pendingDisputes: 4,
   growthStats: {
     workersMoM: "+14%",
     bookingsMoM: "+22%",
@@ -17,66 +19,76 @@ export const federationMetrics = {
 };
 
 export const jobDistributionData = [
-  { workerName: "Ramesh Kumar", category: "Plumbing", jobsAssigned: 14, jobsCompleted: 13, fairnessScore: 0.94, status: "Optimal" },
-  { workerName: "Sunita Devi", category: "Cleaning", jobsAssigned: 12, jobsCompleted: 12, fairnessScore: 0.96, status: "Optimal" },
-  { workerName: "Harpreet Singh", category: "Electrical", jobsAssigned: 16, jobsCompleted: 15, fairnessScore: 0.91, status: "High Load" },
-  { workerName: "Manoj Verma", category: "Carpentry", jobsAssigned: 8, jobsCompleted: 8, fairnessScore: 0.98, status: "Available" },
-  { workerName: "Pooja Sharma", category: "Gardening", jobsAssigned: 9, jobsCompleted: 9, fairnessScore: 0.97, status: "Available" },
-  { workerName: "Gurpreet Kaur", category: "Cleaning", jobsAssigned: 15, jobsCompleted: 14, fairnessScore: 0.92, status: "High Load" },
-  { workerName: "Amit Patel", category: "Plumbing", jobsAssigned: 11, jobsCompleted: 11, fairnessScore: 0.95, status: "Optimal" },
-  { workerName: "Rajesh Yadav", category: "Electrical", jobsAssigned: 10, jobsCompleted: 10, fairnessScore: 0.96, status: "Optimal" }
+  { workerName: "Aryan Maharaj", category: "Plumbing", jobsAssigned: 14, jobsCompleted: 13, fairnessScore: 0.94, status: "Optimal" },
+  { workerName: "Rushil Saini", category: "Electrical", jobsAssigned: 16, jobsCompleted: 15, fairnessScore: 0.91, status: "High Load" },
+  { workerName: "Gunbir Parmer", category: "Cleaning", jobsAssigned: 12, jobsCompleted: 12, fairnessScore: 0.96, status: "Optimal" },
+  { workerName: "Ekaraj Bath", category: "Plumbing", jobsAssigned: 8, jobsCompleted: 8, fairnessScore: 0.98, status: "Available" },
+  { workerName: "Zayan Apte", category: "Electrical", jobsAssigned: 9, jobsCompleted: 9, fairnessScore: 0.97, status: "Available" },
+  { workerName: "Vidhi Dubey", category: "Carpentry", jobsAssigned: 15, jobsCompleted: 14, fairnessScore: 0.92, status: "High Load" },
+  { workerName: "Garima Bala", category: "Gardening", jobsAssigned: 11, jobsCompleted: 11, fairnessScore: 0.95, status: "Optimal" },
+  { workerName: "Gaurang Murty", category: "Carpentry", jobsAssigned: 10, jobsCompleted: 10, fairnessScore: 0.96, status: "Optimal" }
 ];
 
 export const societiesData = [
   {
-    id: "SOC-001",
-    name: "North Delhi Urban Labour Co-op",
-    location: "Rohini, North Delhi",
-    zone: "North",
+    id: "COOP001",
+    name: "Ludhiana Labour Cooperative (West)",
+    location: "Ludhiana West, Punjab",
+    zone: "West",
     workers: 38,
     bookings: 480,
     status: "Active",
     leadContact: "+91 98112 34567"
   },
   {
-    id: "SOC-002",
-    name: "South Delhi Shramik Seva Sahakari",
-    location: "Saket, South Delhi",
-    zone: "South",
+    id: "COOP006",
+    name: "Patiala Labour Cooperative",
+    location: "Patiala Urban, Punjab",
+    zone: "Urban",
     workers: 45,
     bookings: 620,
     status: "Active",
     leadContact: "+91 98223 45678"
   },
   {
-    id: "SOC-003",
-    name: "East Capital Workers Cooperative",
-    location: "Laxmi Nagar, East Delhi",
-    zone: "East",
+    id: "COOP007",
+    name: "Amritsar Labour Cooperative",
+    location: "Amritsar North, Punjab",
+    zone: "North",
     workers: 29,
     bookings: 395,
     status: "Active",
     leadContact: "+91 98334 56789"
   },
   {
-    id: "SOC-004",
-    name: "West Metro Artisan Cooperative",
-    location: "Janakpuri, West Delhi",
-    zone: "West",
+    id: "COOP005",
+    name: "Jalandhar Labour Cooperative",
+    location: "Jalandhar South, Punjab",
+    zone: "South",
     workers: 24,
     bookings: 285,
     status: "Under Review",
     leadContact: "+91 98445 67890"
   },
   {
-    id: "SOC-005",
-    name: "Central Craft & Maintenance Guild",
-    location: "Karol Bagh, Central Delhi",
+    id: "COOP004",
+    name: "Moga Labour Cooperative",
+    location: "Moga Central, Punjab",
     zone: "Central",
-    workers: 12,
-    bookings: 62,
+    workers: 18,
+    bookings: 142,
     status: "Active",
     leadContact: "+91 98556 78901"
+  },
+  {
+    id: "COOP008",
+    name: "Bathinda Labour Cooperative",
+    location: "Bathinda West, Punjab",
+    zone: "West",
+    workers: 20,
+    bookings: 165,
+    status: "Active",
+    leadContact: "+91 98667 89012"
   }
 ];
 
@@ -95,15 +107,15 @@ export const forecastSummary = {
   modelName: "Synthetic 90-Day ARIMA + Moving Avg Simulator",
   forecastHorizon: "Upcoming 7 Days",
   spikeAlert: "High cleaning & electrical surge anticipated over the weekend (Festival Preparation).",
-  recommendedAction: "Pre-allocate 15 reserve workers to North and South Delhi cooperative zones."
+  recommendedAction: "Pre-allocate 15 reserve workers to Ludhiana and Patiala cooperative zones."
 };
 
 export const escalatedDisputesData = [
   {
     id: "DISP-104",
-    society: "North Delhi Urban Labour Co-op",
-    customer: "Vikram Malhotra",
-    worker: "Ramesh Kumar",
+    society: "Ludhiana Labour Cooperative (West)",
+    customer: "Zayyan Mody",
+    worker: "Aryan Maharaj",
     category: "Plumbing",
     issue: "Dispute over unlisted material charges during pipe overhaul",
     status: "Escalated",
@@ -113,10 +125,10 @@ export const escalatedDisputesData = [
   },
   {
     id: "DISP-108",
-    society: "East Capital Workers Cooperative",
-    customer: "Ananya Iyer",
-    worker: "Manoj Verma",
-    category: "Carpentry",
+    society: "Patiala Labour Cooperative",
+    customer: "Oscar Hans",
+    worker: "Ekaraj Bath",
+    category: "Plumbing",
     issue: "Delayed arrival causing damage to customer schedule (emergency booking)",
     status: "Under Review",
     priority: "Medium",
@@ -125,9 +137,9 @@ export const escalatedDisputesData = [
   },
   {
     id: "DISP-112",
-    society: "West Metro Artisan Cooperative",
-    customer: "Rajiv Khosla",
-    worker: "Gurpreet Kaur",
+    society: "Jalandhar Labour Cooperative",
+    customer: "Wyatt Pradhan",
+    worker: "Gunbir Parmer",
     category: "Cleaning",
     issue: "Service quality dissatisfaction following post-construction deep clean",
     status: "Escalated",
@@ -137,9 +149,9 @@ export const escalatedDisputesData = [
   },
   {
     id: "DISP-097",
-    society: "South Delhi Shramik Seva Sahakari",
-    customer: "Priya Nair",
-    worker: "Rajesh Yadav",
+    society: "Moga Labour Cooperative",
+    customer: "Yasti Prasad",
+    worker: "Rushil Saini",
     category: "Electrical",
     issue: "Incomplete wiring inspection before OTP closure",
     status: "Resolved",
@@ -148,4 +160,3 @@ export const escalatedDisputesData = [
     amount: "₹450"
   }
 ];
-
