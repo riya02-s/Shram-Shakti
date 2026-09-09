@@ -1,0 +1,62 @@
+[
+  {
+    "coop_id": "COOP001",
+    "coop_name": "Ludhiana Labour Cooperative",
+    "area": "Ludhiana West",
+    "federation_name": "Punjab Labour Cooperative Federation"
+  },
+  {
+    "coop_id": "COOP002",
+    "coop_name": "Ludhiana Labour Cooperative",
+    "area": "Ludhiana East",
+    "federation_name": "Punjab Labour Cooperative Federation"
+  },
+  {
+    "coop_id": "COOP003",
+    "coop_name": "Ludhiana Labour Cooperative",
+    "area": "Ludhiana North",
+    "federation_name": "Punjab Labour Cooperative Federation"
+  },
+  {
+    "coop_id": "COOP004",
+    "coop_name": "Moga Labour Cooperative",
+    "area": "Moga Central",
+    "federation_name": "Punjab Labour Cooperative Federation"
+  },
+  {
+    "coop_id": "COOP005",
+    "coop_name": "Jalandhar Labour Cooperative",
+    "area": "Jalandhar South",
+    "federation_name": "Punjab Labour Cooperative Federation"
+  },
+  {
+    "coop_id": "COOP006",
+    "coop_name": "Patiala Labour Cooperative",
+    "area": "Patiala Urban",
+    "federation_name": "Punjab Labour Cooperative Federation"
+  },
+  {
+    "coop_id": "COOP007",
+    "coop_name": "Amritsar Labour Cooperative",
+    "area": "Amritsar North",
+    "federation_name": "Punjab Labour Cooperative Federation"
+  },
+  {
+    "coop_id": "COOP008",
+    "coop_name": "Bathinda Labour Cooperative",
+    "area": "Bathinda West",
+    "federation_name": "Punjab Labour Cooperative Federation"
+  },
+  {
+    "coop_id": "COOP009",
+    "coop_name": "Ropar Labour Cooperative",
+    "area": "Ropar Town",
+    "federation_name": "Punjab Labour Cooperative Federation"
+  },
+  {
+    "coop_id": "COOP010",
+    "coop_name": "Mansa Labour Cooperative",
+    "area": "Mansa Rural",
+    "federation_name": "Punjab Labour Cooperative Federation"
+  }
+]
