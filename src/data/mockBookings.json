@@ -1,0 +1,52 @@
+[
+  {
+    "booking_id": "B000001",
+    "customer_id": "C000458",
+    "worker_id": "W00158",
+    "booking_time": "2023-01-01 10:00:00",
+    "service_type": "painter",
+    "status": "completed",
+    "final_amount": 750,
+    "rating_by_customer": 5
+  },
+  {
+    "booking_id": "B000002",
+    "customer_id": "C000992",
+    "worker_id": "W00008",
+    "booking_time": "2023-01-01 11:00:00",
+    "service_type": "electrician",
+    "status": "active",
+    "final_amount": null,
+    "rating_by_customer": null
+  },
+  {
+    "booking_id": "B000003",
+    "customer_id": "C000129",
+    "worker_id": "W00054",
+    "booking_time": "2023-01-02 14:00:00",
+    "service_type": "plumber",
+    "status": "completed",
+    "final_amount": 350,
+    "rating_by_customer": 4
+  },
+  {
+    "booking_id": "B000004",
+    "customer_id": "C000884",
+    "worker_id": "W00003",
+    "booking_time": "2023-01-03 09:30:00",
+    "service_type": "cleaner",
+    "status": "cancelled",
+    "final_amount": null,
+    "rating_by_customer": null
+  },
+  {
+    "booking_id": "B000005",
+    "customer_id": "C001108",
+    "worker_id": "W00181",
+    "booking_time": "2023-01-04 16:00:00",
+    "service_type": "electrician",
+    "status": "active",
+    "final_amount": null,
+    "rating_by_customer": null
+  }
+]
