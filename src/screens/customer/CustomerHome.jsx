@@ -75,6 +75,35 @@ const styles = {
     fontWeight: 600,
     color: "#17263b",
   },
+  emergencyBtn: {
+    display: "block",
+    maxWidth: "760px",
+    margin: "20px auto 0",
+    padding: "16px 20px",
+    fontSize: "17px",
+    fontWeight: 800,
+    color: "#ffffff",
+    background: "#c62828",
+    border: "none",
+    borderRadius: "12px",
+    cursor: "pointer",
+    fontFamily: "inherit",
+    boxShadow: "0 4px 14px rgba(198, 40, 40, 0.3)",
+  },
+  historyBtn: {
+    display: "block",
+    maxWidth: "760px",
+    margin: "12px auto 0",
+    padding: "14px 20px",
+    fontSize: "15px",
+    fontWeight: 700,
+    color: "#0b6bcb",
+    background: "#ffffff",
+    border: "1px solid #0b6bcb",
+    borderRadius: "12px",
+    cursor: "pointer",
+    fontFamily: "inherit",
+  },
   empty: {
     maxWidth: "760px",
     margin: "24px auto 0",
@@ -117,10 +146,15 @@ function getIcon(category) {
   return CATEGORY_ICONS[key] || FALLBACK_ICON;
 }
 
+const EMERGENCY_ICON = "\uD83D\uDEA8";
+const HISTORY_ICON = "\uD83D\uDCDA";
+
 export default function CustomerHome({
   categories = [],
   language = "en",
   onSelectCategory,
+  onEmergency,
+  onGoToHistory,
   t = (key, fallback) => fallback,
 }) {
   const heading = t("customer.home.chooseService", "Choose a Service");
@@ -183,6 +217,28 @@ export default function CustomerHome({
           })}
         </div>
       )}
+
+      {typeof onEmergency === "function" ? (
+        <button
+          type="button"
+          style={styles.emergencyBtn}
+          onClick={onEmergency}
+        >
+          <span role="img" aria-hidden="true">{EMERGENCY_ICON}</span>{" "}
+          {t("customer.home.emergency", "Emergency Service")}
+        </button>
+      ) : null}
+
+      {typeof onGoToHistory === "function" ? (
+        <button
+          type="button"
+          style={styles.historyBtn}
+          onClick={onGoToHistory}
+        >
+          <span role="img" aria-hidden="true">{HISTORY_ICON}</span>{" "}
+          {t("customer.home.history", "My Bookings")}
+        </button>
+      ) : null}
     </section>
   );
 }
