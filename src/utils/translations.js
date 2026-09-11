@@ -1,0 +1,52 @@
+export const translations = {
+  // Common
+  'common.accept': { en: 'Accept', hi: 'स्वीकार करें', pa: 'ਸਵੀਕਾਰ ਕਰੋ' },
+  'common.reject': { en: 'Reject', hi: 'अस्वीकार करें', pa: 'ਰੱਦ ਕਰੋ' },
+  'common.completed': { en: 'Completed', hi: 'पूरा हुआ', pa: 'ਪੂਰਾ ਹੋਇਆ' },
+  'common.recent': { en: 'Recent', hi: 'हाल ही का', pa: 'ਹਾਲੀਆ' },
+
+  // Worker Dashboard
+  'worker.dashboard.title': { en: 'Worker Dashboard', hi: 'कार्यकर्ता डैशबोर्ड', pa: 'ਕਰਮਚਾਰੀ ਡੈਸ਼ਬੋਰਡ' },
+  'worker.dashboard.simulateJob': { en: 'Simulate Incoming Job Request', hi: 'नए कार्य का अनुकरण करें', pa: 'ਨਵੀਂ ਨੌਕਰੀ ਦੀ ਬੇਨਤੀ ਦਾ ਸਿਮੂਲੇਸ਼ਨ' },
+  'worker.job.newRequest': { en: '🚨 New Job Request!', hi: '🚨 नया कार्य अनुरोध!', pa: '🚨 ਨਵੀਂ ਨੌਕਰੀ ਦੀ ਬੇਨਤੀ!' },
+  'worker.job.customer': { en: 'Customer', hi: 'ग्राहक', pa: 'ਗਾਹਕ' },
+  'worker.job.task': { en: 'Task', hi: 'कार्य', pa: 'ਕੰਮ' },
+  'worker.job.location': { en: 'Location', hi: 'स्थान', pa: 'ਸਥਾਨ' },
+  'worker.job.estEarnings': { en: 'Est. Earnings', hi: 'अनुमानित आय', pa: 'ਅਨੁਮਾਨਿਤ ਕਮਾਈ' },
+  'worker.job.activeTitle': { en: '📍 Active Job: Proceed to Location', hi: '📍 सक्रिय कार्य: स्थान पर पहुंचें', pa: '📍 ਸਰਗਰਮ ਨੌਕਰੀ: ਸਥਾਨ ਵੱਲ ਵਧੋ' },
+  'worker.job.askOtp': { en: 'Ask the customer for the OTP to start the job.', hi: 'कार्य शुरू करने के लिए ग्राहक से ओटीपी पूछें।', pa: 'ਕੰਮ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਗਾਹਕ ਤੋਂ ਓਟੀਪੀ ਮੰਗੋ।' },
+  'worker.job.enterOtp': { en: 'Enter 4-digit OTP', hi: '4 अंकों का ओटीपी दर्ज करें', pa: '4 ਅੰਕਾਂ ਦਾ ਓਟੀਪੀ ਦਰਜ ਕਰੋ' },
+  'worker.job.autofill': { en: 'Auto-fill', hi: 'स्वतः भरें', pa: 'ਆਟੋ-ਫਿਲ' },
+  'worker.job.startBtn': { en: 'Verify OTP & Start Job', hi: 'ओटीपी सत्यापित करें और कार्य शुरू करें', pa: 'ਓਟੀਪੀ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ ਅਤੇ ਕੰਮ ਸ਼ੁਰੂ ਕਰੋ' },
+  'worker.job.inProgress': { en: '🛠️ Job in Progress', hi: '🛠️ कार्य प्रगति पर है', pa: '🛠️ ਕੰਮ ਚੱਲ ਰਿਹਾ ਹੈ' },
+  'worker.job.startedMsg': { en: 'You have successfully started the job.', hi: 'आपने कार्य सफलतापूर्वक शुरू कर दिया है।', pa: 'ਤੁਸੀਂ ਕੰਮ ਸਫਲਤਾਪੂਰਵਕ ਸ਼ੁਰੂ ਕਰ ਦਿੱਤਾ ਹੈ।' },
+  'worker.job.markCompleted': { en: 'Mark Job as Completed', hi: 'कार्य को पूर्ण चिह्नित करें', pa: 'ਕੰਮ ਨੂੰ ਪੂਰਾ ਹੋਇਆ ਚਿੰਨ੍ਹਿਤ ਕਰੋ' },
+  'worker.stats.earnings': { en: '💰 Earnings', hi: '💰 आय', pa: '💰 ਕਮਾਈ' },
+  'worker.stats.welfare': { en: '🛡️ Welfare Info', hi: '🛡️ कल्याण जानकारी', pa: '🛡️ ਭਲਾਈ ਜਾਣਕਾਰੀ' },
+  'worker.stats.insurance': { en: 'Insurance', hi: 'बीमा', pa: 'ਬੀਮਾ' },
+  'worker.stats.insuranceActive': { en: 'Active', hi: 'सक्रिय', pa: 'ਸਰਗਰਮ' },
+  'worker.stats.cert': { en: 'Cert', hi: 'प्रमाणपत्र', pa: 'ਪ੍ਰਮਾਣ ਪੱਤਰ' },
+  'worker.stats.level': { en: 'Level', hi: 'स्तर', pa: 'ਪੱਧਰ' },
+  'worker.history.title': { en: '📜 Job History', hi: '📜 कार्य इतिहास', pa: '📜 ਕੰਮ ਦਾ ਇਤਿਹਾਸ' },
+  'worker.history.noJobs': { en: 'No completed jobs yet', hi: 'अभी तक कोई कार्य पूरा नहीं हुआ', pa: 'ਅਜੇ ਕੋਈ ਕੰਮ ਪੂਰਾ ਨਹੀਂ ਹੋਇਆ' },
+
+  // Admin Dashboard
+  'admin.nav.overview': { en: 'Overview', hi: 'अवलोकन', pa: 'ਸੰਖੇਪ ਜਾਣਕਾਰੀ' },
+  'admin.nav.verifications': { en: 'Verifications', hi: 'सत्यापन', pa: 'ਤਸਦੀਕ' },
+  'admin.nav.disputes': { en: 'Disputes', hi: 'विवाद', pa: 'ਵਿਵਾਦ' },
+  'admin.nav.workers': { en: 'Workers', hi: 'कार्यकर्ता', pa: 'ਕਰਮਚਾਰੀ' },
+  'admin.nav.bookings': { en: 'Bookings', hi: 'बुकिंग', pa: 'ਬੁਕਿੰਗ' },
+  'admin.title': { en: 'Society Admin Panel', hi: 'सोसाइटी एडमिन पैनल', pa: 'ਸੋਸਾਇਟੀ ਐਡਮਿਨ ਪੈਨਲ' },
+  'admin.metrics.totalWorkers': { en: 'Total Workers', hi: 'कुल कार्यकर्ता', pa: 'ਕੁੱਲ ਕਰਮਚਾਰੀ' },
+  'admin.metrics.pendingVerifications': { en: 'Pending Verifications', hi: 'लंबित सत्यापन', pa: 'ਬਕਾਇਆ ਤਸਦੀਕ' },
+  'admin.metrics.openDisputes': { en: 'Open Disputes', hi: 'खुले विवाद', pa: 'ਖੁੱਲ੍ਹੇ ਵਿਵਾਦ' },
+  'admin.metrics.activeBookings': { en: 'Active Bookings', hi: 'सक्रिय बुकिंग', pa: 'ਸਰਗਰਮ ਬੁਕਿੰਗ' },
+
+  // Federation Dashboard
+  'federation.nav.dashboard': { en: 'Dashboard', hi: 'डैशबोर्ड', pa: 'ਡੈਸ਼ਬੋਰਡ' },
+  'federation.nav.societies': { en: 'Societies Governance', hi: 'सोसाइटी शासन', pa: 'ਸੋਸਾਇਟੀਆਂ ਦਾ ਸ਼ਾਸਨ' },
+  'federation.nav.jobDistribution': { en: 'Job Distribution Audit', hi: 'कार्य वितरण ऑडिट', pa: 'ਨੌਕਰੀ ਵੰਡ ਆਡਿਟ' },
+  'federation.nav.demandForecast': { en: 'Demand Forecast', hi: 'मांग का पूर्वानुमान', pa: 'ਮੰਗ ਦੀ ਭਵਿੱਖਬਾਣੀ' },
+  'federation.nav.escalatedDisputes': { en: 'Escalated Disputes', hi: 'बढ़े हुए विवाद', pa: 'ਵਧੇ ਹੋਏ ਵਿਵਾਦ' },
+  'federation.title': { en: 'Apex Federation Governance', hi: 'एपेक्स फेडरेशन शासन', pa: 'ਐਪੈਕਸ ਫੈਡਰੇਸ਼ਨ ਸ਼ਾਸਨ' },
+};
